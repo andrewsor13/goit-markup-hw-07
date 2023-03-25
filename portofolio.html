@@ -7,6 +7,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet" />
   <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="stlesheet" href="./sass/main.css" />
+  <link rel="stylesheet" href="./css/main.min.css" />
   <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css" />
   <meta charset="UTF-8" />
   <title>Portofolio</title>
@@ -18,15 +20,19 @@
       <div class="page-header">
         <a class="logo" href="index.html">Studio</a>
         <nav class="header-navigation">
-          <ul class="navigation-list undecorated-list">
-            <li class="navigation__item"><a class="navigation__item__elements" href="index.html">Studio</a></li>
-            <li class="navigation__item"><a class="navigation__item__elements active-link"
-                href="portofolio.html">Portofolio</a>
+          <ul class="navigation undecorated-list">
+            <li class="navigation__item">
+              <a class="navigation__item__elements" href="index.html">Studio</a>
             </li>
-            <li class="navigation__item"><a class="navigation__item__elements" href="contacts.html">Contacts</a></li>
+            <li class="navigation__item">
+              <a class="navigation__item__elements active-link" href="portofolio.html">Portofolio</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__item__elements" href="contacts.html">Contacts</a>
+            </li>
           </ul>
         </nav>
-        <ul class="undecorated-list navigation-list  right-navigation-list">
+        <ul class="undecorated-list navigation navigation--right">
           <li class="navigation__item">
             <a class="contact-list" href="mailto:info@devstudio.com">
               <svg class="navigation__item__image" width="16px" height="12px">
@@ -73,11 +79,11 @@
                   <p>Technoduck is a state-of-the-art coronavirus distribution platform. Companies use this platform for
                     digital espionage and attacks on competitors' secure servers.</p>
                 </div>
-                <img class="card__image" src="./images/laptop.jpg" alt="laptop" />
+                <img class="card-1__image" src="./images/laptop.jpg" alt="laptop" />
               </div>
               <div class="card-2">
-                <h2 class="card__title">Technoduck</h2>
-                <p class="card__text">Web-site</p>
+                <h2 class="card-2__title">Technoduck</h2>
+                <p class="card-2__text">Web-site</p>
               </div>
             </li>
             <li class="grid__item grid--three grid--border">
@@ -86,11 +92,11 @@
                   <p>Technoduck is a state-of-the-art coronavirus distribution platform. Companies use this platform for
                     digital espionage and attacks on competitors' secure servers.</p>
                 </div>
-                <img class="card__image" src="./images/basketball_player.jpg" alt="basketball player" />
+                <img class="card-1__image" src="./images/basketball_player.jpg" alt="basketball player" />
               </div>
               <div class="card-2">
-                <h2 class="card__title">Poster New Orlean vs Golden Star</h2>
-                <p class="card__text">Design</p>
+                <h2 class="card-2__title">Poster New Orlean vs Golden Star</h2>
+                <p class="card-2__text">Design</p>
               </div>
             </li>
             <li class="grid__item grid--three grid--border">
@@ -99,11 +105,11 @@
                   <p>Technoduck is a state-of-the-art coronavirus distribution platform. Companies use this platform for
                     digital espionage and attacks on competitors' secure servers.</p>
                 </div>
-                <img class="card__image" src="./images/seafood_logo.jpg" alt="sea food logo" />
+                <img class="card-1__image" src="./images/seafood_logo.jpg" alt="sea food logo" />
               </div>
               <div class="card-2">
-                <h2 class="card__title">Seafood Restaurant</h2>
-                <p class="card__text">Apps</p>
+                <h2 class="card-2__title">Seafood Restaurant</h2>
+                <p class="card-2__text">Apps</p>
               </div>
             </li>
             <li class="grid__item grid--three grid--border">
@@ -112,11 +118,11 @@
                   <p>Technoduck is a state-of-the-art coronavirus distribution platform. Companies use this platform for
                     digital espionage and attacks on competitors' secure servers.</p>
                 </div>
-                <img class="card__image" src="./images/headphones.jpg" alt="headphones" />
+                <img class="card-1__image" src="./images/headphones.jpg" alt="headphones" />
               </div>
               <div class="card-2">
-                <h2 class="card__title">Project Prime</h2>
-                <p class="card__text">Marketing</p>
+                <h2 class="card-2__title">Project Prime</h2>
+                <p class="card-2__text">Marketing</p>
               </div>
             </li>
             <li class="grid__item grid--three grid--border">
@@ -125,11 +131,11 @@
                   <p>Technoduck is a state-of-the-art coronavirus distribution platform. Companies use this platform for
                     digital espionage and attacks on competitors' secure servers.</p>
                 </div>
-                <img class="card__image" src="./images/two_boxes.jpg" alt="two boxes" />
+                <img class="card-1__image" src="./images/two_boxes.jpg" alt="two boxes" />
               </div>
               <div class="card-2">
-                <h2 class="card__title">Project Boxes</h2>
-                <p class="card__text">Apps</p>
+                <h2 class="card-2__title">Project Boxes</h2>
+                <p class="card-2__text">Apps</p>
               </div>
             </li>
             <li class="grid__item grid--three grid--border">
@@ -138,11 +144,11 @@
                   <p>Technoduck is a state-of-the-art coronavirus distribution platform. Companies use this platform for
                     digital espionage and attacks on competitors' secure servers.</p>
                 </div>
-                <img class="card__image" src="./images/computer_screen.jpg" alt="computerscreen" />
+                <img class="card-1__image" src="./images/computer_screen.jpg" alt="computerscreen" />
               </div>
               <div class="card-2">
-                <h2 class="card__title">Inspiration has no Borders</h2>
-                <p class="card__text">Web-site</p>
+                <h2 class="card-2__title">Inspiration has no Borders</h2>
+                <p class="card-2__text">Web-site</p>
               </div>
             </li>
             <li class="grid__item grid--three grid--border">
@@ -151,11 +157,11 @@
                   <p>Technoduck is a state-of-the-art coronavirus distribution platform. Companies use this platform for
                     digital espionage and attacks on competitors' secure servers.</p>
                 </div>
-                <img class="card__image" src="./images/book_page.jpg" alt="book page" />
+                <img class="card-1__image" src="./images/book_page.jpg" alt="book page" />
               </div>
               <div class="card-2">
-                <h2 class="card__title">Limited Edition</h2>
-                <p class="card__text">Design</p>
+                <h2 class="card-2__title">Limited Edition</h2>
+                <p class="card-2__text">Design</p>
               </div>
             </li>
             <li class="grid__item grid--three grid--border">
@@ -164,11 +170,11 @@
                   <p>Technoduck is a state-of-the-art coronavirus distribution platform. Companies use this platform for
                     digital espionage and attacks on competitors' secure servers.</p>
                 </div>
-                <img class="card__image" src="./images/necklace.jpg" alt="necklace" />
+                <img class="card-1__image" src="./images/necklace.jpg" alt="necklace" />
               </div>
               <div class="card-2">
-                <h2 class="card__title">Project LAB</h2>
-                <p class="card__text">Marketing</p>
+                <h2 class="card-2__title">Project LAB</h2>
+                <p class="card-2__text">Marketing</p>
               </div>
             </li>
             <li class="grid__item grid--three grid--border">
@@ -177,11 +183,11 @@
                   <p>Technoduck is a state-of-the-art coronavirus distribution platform. Companies use this platform for
                     digital espionage and attacks on competitors' secure servers.</p>
                 </div>
-                <img class="card__image" src="./images/using_laptop.jpg" alt="using laptop" />
+                <img class="card-1__image" src="./images/using_laptop.jpg" alt="using laptop" />
               </div>
               <div class="card-2">
-                <h2 class="card__title">Growing Business</h2>
-                <p class="card__text">Apps</p>
+                <h2 class="card-2__title">Growing Business</h2>
+                <p class="card-2__text">Apps</p>
               </div>
             </li>
           </ul>

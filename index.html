@@ -7,6 +7,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet" />
   <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="stlesheet" href="./sass/main.css" />
+  <link rel="stylesheet" href="./css/main.min.css" />
   <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css" />
   <meta charset="UTF-8" />
   <title>Studio</title>
@@ -18,15 +20,19 @@
       <div class="page-header">
         <a class="logo" href="index.html">Studio</a>
         <nav class="header-navigation">
-          <ul class="navigation-list undecorated-list">
-            <li class="navigation__item"><a class="navigation__item__elements active-link" href="index.html">Studio</a>
+          <ul class="navigation undecorated-list">
+            <li class="navigation__item">
+              <a class="navigation__item__elements active-link" href="index.html">Studio</a>
             </li>
-            <li class="navigation__item"><a class="navigation__item__elements" href="portofolio.html">Portofolio</a>
+            <li class="navigation__item">
+              <a class="navigation__item__elements" href="portofolio.html">Portofolio</a>
             </li>
-            <li class="navigation__item"><a class="navigation__item__elements" href="contacts.html">Contacts</a></li>
+            <li class="navigation__item">
+              <a class="navigation__item__elements" href="contacts.html">Contacts</a>
+            </li>
           </ul>
         </nav>
-        <ul class="undecorated-list navigation-list  right-navigation-list">
+        <ul class="undecorated-list navigation navigation--right">
           <li class="navigation__item">
             <a class="contact-list" href="mailto:info@devstudio.com">
               <svg class="navigation__item__image" width="16px" height="12px">
@@ -36,7 +42,7 @@
           </li>
           <li class="navigation__item">
             <a class="contact-list" href="tel:+12127724150">
-              <svg width="10px" height="16px">
+              <svg class="navigation__item__image" width="10px" height="16px">
                 <use href="./images/icons.svg#icon-smartphone"></use>
               </svg>
               +1 212-772-4150</a>
@@ -163,7 +169,7 @@
     <section class="section what-we-do-section">
       <div class="container">
         <div class="section-block">
-          <h2 class="section__title">What we do</h2>
+          <h2 class="section-block__title">What we do</h2>
           <ul class="grid">
             <li class="grid__item grid--three">
               <div class="what-we-do-image-list">
@@ -194,7 +200,7 @@
     <section class="section section--our-team">
       <div class="container">
         <div class="section-block">
-          <h2 class="section__title">Our Team</h2>
+          <h2 class="section-block__title">Our Team</h2>
           <ul class="grid">
             <li class="grid__item grid--our-team">
               <div class="team-member">
@@ -360,35 +366,35 @@
     <section class="container section">
       <div class="container">
         <div class="section-block">
-          <h2 class="section__title">Regular Customers</h2>
+          <h2 class="section-block__title">Regular Customers</h2>
           <ul class="grid">
             <li class="grid__item grid__item--border grid--six">
-              <svg class="customers-icons__icon" width="106px" height="60px">
+              <svg class="customers-icons" width="106px" height="60px">
                 <use href="./images/icons.svg#icon-logo1"></use>
               </svg>
             </li>
             <li class="grid__item grid__item--border grid--six">
-              <svg class="customers-icons__icon" width="106px" height="60px">
+              <svg class="customers-icons" width="106px" height="60px">
                 <use href="./images/icons.svg#icon-logo2"></use>
               </svg>
             </li>
             <li class="grid__item grid__item--border grid--six">
-              <svg class="customers-icons__icon" width="106px" height="60px">
+              <svg class="customers-icons" width="106px" height="60px">
                 <use href="./images/icons.svg#icon-logo3"></use>
               </svg>
             </li>
             <li class="grid__item grid__item--border grid--six">
-              <svg class="customers-icons__icon" width="106px" height="60px">
+              <svg class="customers-icons" width="106px" height="60px">
                 <use href="./images/icons.svg#icon-logo4"></use>
               </svg>
             </li>
             <li class="grid__item grid__item--border grid--six">
-              <svg class="customers-icons__icon" width="106px" height="60px">
+              <svg class="customers-icons" width="106px" height="60px">
                 <use href="./images/icons.svg#icon-logo5"></use>
               </svg>
             </li>
             <li class="grid__item grid__item--border grid--six">
-              <svg class="customers-icons__icon" width="106px" height="60px">
+              <svg class="customers-icons" width="106px" height="60px">
                 <use href="./images/icons.svg#icon-logo6"></use>
               </svg>
             </li>
@@ -397,6 +403,7 @@
       </div>
     </section>
   </main>
+  <!--Footer-->
   <footer class="page-footer">
     <div class="container">
       <div class="footer-items">
